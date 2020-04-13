@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:translator_flutter/components/chooseLanguage.dart';
+import 'package:translator_flutter/components/listTranslate.dart';
 import 'package:translator_flutter/components/translateText.dart';
 
 class HomePage extends StatefulWidget {
@@ -20,6 +21,7 @@ class _HomePageState extends State<HomePage> {
         children: <Widget>[
           ChooseLanguage(),
           TranslateText(),
+          DisplayCard(),
         ],
       ),
     );
